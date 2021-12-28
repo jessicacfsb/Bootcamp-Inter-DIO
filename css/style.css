@@ -1,3 +1,35 @@
+body{
+    font: 20px Arial sans-serif;
+    background-color: rgba(116, 192, 197, 0.507);
+    color: hsl(0, 0%, 50%);
+}
+
 .navbar{
-    background-color: hsl(105, 89%, 29%);
+   font-weight: 600;
+    background-color: rgba(128, 128, 128, 0.349);
+}
+
+h3{
+    text-shadow: 1px 1px 1px rgba(68, 65, 65, 0.74);
+}
+
+.margin{
+   padding-top: 30px; 
+   padding-bottom: 30px;
+   margin-bottom: 0px;
+}
+
+.servicos img{
+    border-radius: 5px ;
+    box-shadow: 10px 10px 10px hsla(0, 0%, 50%, 0.315);
+}
+
+.parceiros{
+    background-color: rgba(128, 128, 128, 0.219);
+}
+
+.creditos{
+    background-color: rgba(128, 128, 128, 0.349);
+    font-weight: 600;
+    color: hsla(0, 0%, 0%, 0.801);
 }

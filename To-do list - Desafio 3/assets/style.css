@@ -8,7 +8,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  font-size: 15px;
 }
 
 button {
@@ -20,19 +20,25 @@ button {
   padding: 5px;
 }
 
-input[type="text"] {
+#tarefa {
   padding: 5px;
   border-radius: 5px;
   border: 1px solid black;
 }
 
-#tasks {
+.minhaLista{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  max-width: 400px;
+  height: auto;
   margin-top: 20px;
+  justify-content: space-around;
+  border: 1px solid hsl(0, 0%, 0%);
+  padding: 5px;
+  border-radius: 5px;
 }
 
-.task-item {
+asdasd{
   display: flex;
   align-items: center;
   margin-bottom: 10px;

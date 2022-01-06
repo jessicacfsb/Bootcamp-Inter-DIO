@@ -1,4 +1,5 @@
 let bancoDeDados = []
+console.log(bancoDeDados)
 
 const criarItem = (tarefa, status= " ") => {
     const item = document.createElement("div")

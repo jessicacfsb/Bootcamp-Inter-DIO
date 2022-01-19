@@ -10,10 +10,10 @@ function alunos(mediaFinal){
 }
 console.log(alunos(array))*/
 
-const alunos = [
+const mediaDosAlunos = [
 	{
 		nome: 'João',
-		nota: 5,
+		nota: 4,
 		turma: '1B',
 	},
 	{
@@ -28,8 +28,19 @@ const alunos = [
 	},
 ]
 
-function alunosAprovados (array, media){
-    for (let i = 0; i < mediaFinal.length; i++){
+function alunosAprovados (alunos, media){
+	let aprovados = []
+
+    for (let i = 0; i < alunos.length; i++){
+		var {nome, nota} = alunos[i]
+
+		if (nota >= media){
+			aprovados.push(nome)
+		}
         
     }
+return aprovados
 }
+
+
+console.log(alunosAprovados(mediaDosAlunos, 5))
